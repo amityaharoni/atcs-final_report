@@ -1,2 +1,2 @@
 # latex gitignore file
-main.pdf
+*.pdf
