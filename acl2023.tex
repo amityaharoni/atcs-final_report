@@ -70,13 +70,30 @@
 \begin{document}
 \maketitle
 \begin{abstract}
-This document is a supplement to the general instructions for *ACL authors. It contains instructions for using the \LaTeX{} style file for ACL 2023.
-The document itself conforms to its own specifications, and is, therefore, an example of what your manuscript should look like.
-These instructions should be used both for papers submitted for review and for final versions of accepted papers.
+Large language models such as GPT-3, OPT, BLOOM, T0 or LLAMA 
+are commonly evaluated in the few-shot or zero-shot setting by 
+prompting them with task-specific instructions and/or demonstration 
+examples. While LLM performance is often impressive across a 
+variety of tasks, it depends crucially on the exact prompt 
+used in the evaluation. Semantically equivalent prompts can 
+result in performance differences of up to 20 percentage points 
+or more. Prompt engineering research has focused
+almost exclusively on instructions written in English. In this 
+project, we pose the following research question: 
+Does the performance of LLMs over common prompts diminish when
+transfered to different languages?
+For this project, we will be evaluating
+BLOOM and  on different tasks, e.g., sentiment 
+classification and NLI, using
+prompts written in German and English, varying one 
+% Check which prompts and tasks have we 
+% specifically focused on and on which
+% models
+linguistic property at a time, e.g., active vs. passive voice, 
+question vs. imperative.
 \end{abstract}
-
 \section{Introduction}
-
+\input{introduction.tex}
 \section{Engines}
 
 To produce a PDF file, pdf\LaTeX{} is strongly recommended (over original \LaTeX{} plus dvips+ps2pdf or dvipdf). Xe\LaTeX{} also produces PDF files, and is especially suitable for text in non-Latin scripts.

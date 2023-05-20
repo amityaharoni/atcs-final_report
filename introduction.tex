@@ -1,0 +1,85 @@
+% Introduce the task and the main goal
+%% Explain why zero shot learning became so popular in rescent years
+In recent years, NLP
+has witnessed a significant shift from 
+traditional fine-tuning approaches to the 
+emerging paradigm of few-shot learning. 
+This transition has been 
+driven by several factors, including the 
+need to address data scarcity, 
+improve model generalization, and 
+achieve more flexible and efficient 
+learning capabilities. Fine-tuning, 
+while effective for adapting 
+pre-trained models to specific 
+tasks, often requires a substantial 
+amount of task-specific labeled data. 
+However, this approach is not always 
+feasible or practical, as collecting 
+extensive labeled data for every task is 
+challenging and time-consuming. Prompt tuning has 
+emerged as a powerful alternative, 
+enabling models to be fine-tuned using 
+task-specific prompts that provide explicit 
+instructions or constraints.
+This transition has been facilitated 
+by the recognition that prompts offer a more 
+controlled and interpretable way of guiding models'
+behavior and allow for multi-task learning and zero-shot 
+transfer -
+Instead of relying solely on large amounts 
+of task-specific labeled data for fine-tuning, prompt 
+tuning leverages prompts, which are specific 
+instructions or examples given to the model to guide 
+its behavior.
+This shift towards prompt tuning has resulted in more 
+versatile and easily adaptable models, reducing the 
+need for extensive fine-tuning on large task-specific 
+datasets and opening new possibilities for rapid 
+deployment and efficient adaptation in various NLP 
+ applications.
+
+However, despite the recent success of prompt tuning,
+there are still many open questions regarding the
+optimal design of prompts and the best way to
+incorporate them into pre-trained models.
+The behavior of prompt-tuned models can be 
+influenced by subtle changes in the prompt 
+phrasing or structure, which may lead to 
+unexpected variations in their outputs.
+The causes of these variations are not always
+clear, and it is often challenging to predict
+how performance will change for a given prompt.
+This lack of predictability can make it challenging to 
+precisely control the model's behavior and ensure 
+consistent results across different prompts. 
+Researchers and practitioners are 
+actively working on mitigating this issue by 
+exploring methods to enhance the interpretability and 
+control of prompt-tuned models. 
+
+Although this issue has received significant attention
+in recent years,
+the majority of existing work has
+focused on the affect of prompt design mainly within
+the English language.
+However, prompt tuning has also been shown to be
+a promising approach for training
+in low-resource languages.
+To utilize prompt tuning in these settings,
+it is essential to understand how prompts
+can be designed to achieve the best performance.
+
+Recent work has focused on single models' performance across multiple languages.
+There has been no analysis of the performance of multiple
+multi-lingual zero-shot prompting across different models.
+% Clear research question
+In this paper we investigate the differences in language performance of different
+prompt-tuned models across
+European languages on sentiment analysis and 
+NLI
+tasks.
+% Motivating the importance of the question and explaining the expectations
+% How are these addressed or not addressed in the literature
+% What is your approach and its novelty
+% Short summary of your findings (Did you get the results you were expecting, what should one learn from your experiments and results?)
