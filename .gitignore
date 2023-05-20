@@ -1,2 +1,13 @@
 # latex gitignore file
 *.pdf
+*.dvi
+*.aux
+*.log
+*.toc
+*.lof
+*.fls
+*.fdb_latexmk
+*.bbl
+*.bcf
+*.blg
+*.gz
